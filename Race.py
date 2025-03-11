@@ -24,7 +24,7 @@ class Horse:
 
 def main():
     # Creating window
-    win = GraphWin("Race field", 700, 350, autoflush=False)
+    win = GraphWin("Horse Race", 700, 350, autoflush=False)
     win.setBackground(color_rgb(0, 255, 0))
 
     # Set horse images

@@ -31,11 +31,11 @@ def main():
    win.setBackground(color_rgb(0, 255, 0))
 
    #Set horse image
-   horse1_image = "Knight.gif"
-   horse2_image = "Wizard.gif"
+   horse1_image = "cat_race.png"
+   horse2_image = "dog_race.png"
 
-   horse1_image = Image(Point(0,100), "Knight.gif")
-   horse2_image = Image(Point(0, 150), "Wizard.gif")
+   horse1_image = Image(Point(0,100), "cat_race.png")
+   horse2_image = Image(Point(0, 150), "dog_race.png")
 
    #Set horse1, horse2
    horse1 = Horse(6, 50, horse1_image, win)
